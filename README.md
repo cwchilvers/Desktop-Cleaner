@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="src/desktop-cleaner.ico" width="80px">
+    <img src="img/desktop-cleaner.svg" width="80px">
 </p>
 
 <h1 align="center">

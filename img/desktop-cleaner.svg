@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 -2 24 24"
+   id="meteor-icon-kit__solid-desktop"
+   fill="none"
+   version="1.1"
+   sodipodi:docname="desktop-cleaner.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs7">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7784">
+      <stop
+         style="stop-color:#ffbf5a;stop-opacity:1"
+         offset="0"
+         id="stop7780" />
+      <stop
+         style="stop-color:#ffa48f;stop-opacity:1"
+         offset="1"
+         id="stop7782" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient876">
+      <stop
+         style="stop-color:#0066ff;stop-opacity:1;"
+         offset="0"
+         id="stop872" />
+      <stop
+         style="stop-color:#4e6aff;stop-opacity:1;"
+         offset="0.30097088"
+         id="stop1212" />
+      <stop
+         style="stop-color:#9c6fff;stop-opacity:1"
+         offset="1"
+         id="stop874" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient876"
+       id="linearGradient916"
+       x1="0.058252428"
+       y1="9.5922327"
+       x2="24.058252"
+       y2="9.5922327"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.42796226)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7784"
+       id="linearGradient7786"
+       x1="-0.0035146731"
+       y1="60.009418"
+       x2="122.87741"
+       y2="60.009418"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7784"
+       id="linearGradient10788"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.0035146731"
+       y1="60.009418"
+       x2="122.87741"
+       y2="60.009418" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7784"
+       id="linearGradient10790"
+       gradientUnits="userSpaceOnUse"
+       x1="-0.0035146731"
+       y1="60.009418"
+       x2="122.87741"
+       y2="60.009418" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.2575"
+     inkscape:cx="238.83495"
+     inkscape:cy="3.8834951"
+     inkscape:window-width="1920"
+     inkscape:window-height="1010"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="meteor-icon-kit__solid-desktop" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 2,0.42796226 h 20 c 1.1046,0 2,0.89543044 2,2.00000104 V 15.427969 c 0,1.104602 -0.8954,2.000001 -2,2.000001 H 2 c -1.10457,0 -2,-0.895399 -2,-2.000001 V 2.4279633 C 0,1.3233927 0.89543,0.42796226 2,0.42796226 Z M 16,18.427971 c 0.5523,0 1,0.4477 1,1 0,0.552301 -0.4477,1.000001 -1,1.000001 H 8 c -0.55228,0 -1,-0.4477 -1,-1.000001 0,-0.5523 0.44772,-1 1,-1 z"
+     fill="#758CA3"
+     id="path2"
+     style="fill:url(#linearGradient916);fill-opacity:1;fill-rule:evenodd;stroke-width:0.99999;stroke-miterlimit:4;stroke-dasharray:none" />
+  <style
+     type="text/css"
+     id="style1559">.st0{fill-rule:evenodd;clip-rule:evenodd;}</style>
+  <g
+     style="fill:url(#linearGradient7786);fill-opacity:1"
+     id="g1573"
+     transform="matrix(0.16887011,0,0,0.16887011,1.6536406,-0.60174595)">
+    <g
+       id="g1563"
+       style="fill:url(#linearGradient10790);fill-opacity:1">
+      <path
+         class="st0"
+         d="M 110.97,1.27 70.02,42.73 80.69,53.09 121.94,11.53 C 125.58,3.7 117.92,-2.85 110.97,1.27 Z M 54.04,46.81 c 0.4,-0.31 0.81,-0.58 1.22,-0.81 l 0.15,-0.08 c 2.35,-1.28 4.81,-1.24 7.39,0.53 l 7.17,6.98 0.11,0.11 6.6,6.42 c 2.73,2.78 3.34,5.88 1.83,9.31 L 59.16,120.02 C 24.02,112.99 -0.34,87.94 0,49.73 c 19.23,5.62 37.75,7.46 54.04,-2.92 z"
+         id="path1561"
+         style="fill:url(#linearGradient10788);fill-opacity:1" />
+    </g>
+  </g>
+  <g
+     id="g5223"
+     transform="translate(0,-0.97009599)" />
+</svg>
