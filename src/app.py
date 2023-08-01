@@ -1,21 +1,12 @@
 import os
 import shutil
 from flask import Flask, render_template, jsonify
+from utils.extensions import extensions
 
 app = Flask(__name__)
 
 desktop = os.path.expanduser('~/Desktop')
 destination = os.path.expanduser('~/Documents/Desktop Cleaner')
-
-# Dictionary of file extensions
-extensions = {
-    'image': ['ai', 'apng', 'avif', 'avifs', 'bmp', 'gif', 'heic', 'heif', 'ico', 'jfif', 'jfif-tbnl', 'jfi', 'jpe', 'jpeg', 'jpg', 'jif', 'png', 'psd', 'raw', 'svg', 'tiff', 'tif', 'webp', 'webp', 'h264', 'h265', 'mkv', 'webm'],
-    'video': ['3g2', '3gp', 'avi', 'flv', 'f4a', 'f4b', 'f4p', 'f4v', 'm2v', 'm4v', 'mkv', 'mng', 'mov', 'mp2', 'mp4', 'mpg', 'mpe', 'mpeg', 'mpv', 'mxf', 'nsv', 'ogg', 'qt', 'roq', 'svi', 'swf', 'vob', 'webm', 'wmv'],
-    'audio': ['aac', 'aif', 'aifc', 'aiff', 'ape', 'au', 'flac', 'm4a', 'mac', 'mid', 'midi', 'mka', 'mp3', 'oga', 'ogg', 'opus', 'ra', 'rm', 'snd', 'wav', 'wma', 'm4b', 'alac', 'aiff'],
-    'document': ['csv', 'doc', 'docx', 'key', 'log', 'msg', 'numbers', 'odp', 'ods', 'odt', 'pages', 'pdf', 'ppt', 'pptx', 'rtf', 'txt', 'wps', 'wpd', 'xlr', 'xls', 'xlsx', 'xml', 'odt', 'tex', 'texinfo', 'md', 'json', 'yaml'],
-    'executable': ['apk', 'app', 'bat', 'com', 'exe', 'gadget', 'jar', 'msi', 'wsf', 'vbs', 'vb', 'appimage'],
-    'archive': ['7z', 'ace', 'arj', 'bz2', 'cab', 'deb', 'dmg', 'gz', 'hqx', 'iso', 'lzh', 'pkg', 'rar', 'rpm', 'sea', 'sit', 'sitx', 'tar', 'uue', 'zip', 'zipx', 'z', 'gzip', 'bzip2', 'lzma', 'xz', 'tar.gz', 'tar.bz2', 'tar.xz', 'tar.lzma', 'tar.z']
-}
 
 # Create destination folder if it doesn't exist
 if not os.path.exists(destination):

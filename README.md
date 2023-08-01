@@ -3,15 +3,17 @@
 </p>
 
 <h1 align="center">
-  Desktop Cleaner
+  tidE
 </h1>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=Flask&logoColor=white" alt="Flask">
+    <img src="https://img.shields.io/badge/Electron-47848F.svg?style=for-the-badge&logo=Electron&logoColor=white" alt="Electron">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
 </p>
 
-<h4 align="center">Quickly move desktop clutter to your documents folder.</h4>
+<h4 align="center">Quickly organize clutter.</h4>
 
 ## Table of Contents
 - [Description](#description)
@@ -36,6 +38,8 @@ Run `desktop-cleaner.exe`. The application will proceed to move all files and fo
 ## Credits
 - [Python](https://www.python.org/)
 - [PyInstaller](https://www.pyinstaller.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.3.x/)
+- [Electron](https://www.electronjs.org/)
 
 ## License
 This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
