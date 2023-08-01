@@ -24,6 +24,9 @@
 ## Description
 This application cleans up a user's desktop by moving all files and folders to the user's documents folder. Files are sorted into folders based on their type. All desktop folders are moved into a single folder called "Folders". Files with other extensions are moved into a folder called "Other".
 
+## Requirements
+- Windows 10/11
+
 ## Installation
 Download the [latest release](https://github.com/cwchilvers/Python-Projects/releases).
 

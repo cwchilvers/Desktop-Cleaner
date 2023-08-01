@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Desktop Cleaner</title>
+</head>
+
+<body>
+    <h1>Desktop Cleaner</h1>
+    <p id="status">Press the 'Clean Up Desktop' button to start.</p>
+    <button onclick="cleanDesktop()">Clean Up Desktop</button>
+
+    <script>
+        function cleanDesktop() {
+            var statusElement = document.getElementById('status');
+            statusElement.innerText = "Cleaning up...";
+
+            fetch('/clean_desktop')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        statusElement.innerText = data.message;
+                    } else {
+                        statusElement.innerText = data.message;
+                    }
+                })
+                .catch(error => {
+                    statusElement.innerText = "An error occurred during the cleaning process.";
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</body>
+
+</html>
