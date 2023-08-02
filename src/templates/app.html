@@ -3,14 +3,75 @@
 
 <head>
     <title>Desktop Cleaner</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/app.css">
 </head>
 
 <body>
-    <h1>Desktop Cleaner</h1>
-    <p id="status">Press the 'Clean Up Desktop' button to start.</p>
-    <button onclick="organize_hdlr()">Clean Up Desktop</button>
+    <div id="window">
+        <div id="config">
+            <div id="categories">
+                <div class="center">
+                    <h2>Categories</h2>
+                </div>
+                <ul>
+                    <li>Images<button>✏️</button><button>❌</button></li>
+                    <li>Documents<button>✏️</button><button>❌</button></li>
+                    <li>Videos<button>✏️</button><button>❌</button></li>
+                    <li>Audio<button>✏️</button><button>❌</button></li>
+                    <li>Archives<button>✏️</button><button>❌</button></li>
+                </ul>
+                <div class="center">
+                    <button id="add-category">➕ New Category</button>
+                </div>
 
-    <script src="../static/js/app.js"></script>
+            </div>
+
+            <div id="extensions">
+                <div class="center">
+                    <h2>Extensions</h2>
+                </div>
+                <ul>
+                    <li>.jpg<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li>.png<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li>.pdf<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li>.mp4<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li>.mp3<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li>.zip<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                </ul>
+                <div class="center">
+                    <button id="add-extension">➕ New Extension</button>
+                </div>
+            </div>
+        </div>
+
+        <form id="footer">
+            <div id="path">
+                <div id="source">
+                    <label for="source">Source:</label>
+                    <input type="text" id="source" type="file" name="source" value="">
+                    <button id="browse-source">Browse</button>
+                </div>
+
+                <div id="destination">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" type="file" name="destination" value="">
+                    <button id="browse-destination">Browse</button>
+                </div>
+            </div>
+
+            <div id="options">
+                <span>Move Files:</button><input type="checkbox" id="move-files"></span>
+                <span>Move folders:<input type="checkbox" id="move-folders"></span>
+            </div>
+
+            <div id="organize">
+                <input type="submit" value="Organize">
+                <button>↶</button>
+            </div>
+
+        </form>
+    </div>
 </body>
 
 </html>
