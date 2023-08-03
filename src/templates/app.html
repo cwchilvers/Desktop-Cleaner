@@ -15,32 +15,32 @@
                     <h2>Categories</h2>
                 </div>
                 <ul>
-                    <li>Images<button>✏️</button><button>❌</button></li>
-                    <li>Documents<button>✏️</button><button>❌</button></li>
-                    <li>Videos<button>✏️</button><button>❌</button></li>
-                    <li>Audio<button>✏️</button><button>❌</button></li>
-                    <li>Archives<button>✏️</button><button>❌</button></li>
+                    <li><span>Images</span><button>✏️</button><button>❌</button></li>
+                    <li><span>Documents</span><button>✏️</button><button>❌</button></li>
+                    <li><span>Videos</span><button>✏️</button><button>❌</button></li>
+                    <li><span>Audio</span><button>✏️</button><button>❌</button></li>
+                    <li><span>Archives</span><button>✏️</button><button>❌</button></li>
                 </ul>
-                <div class="center">
-                    <button id="add-category">➕ New Category</button>
+                <div class="new center">
+                    <input type="text" class="new-category" placeholder="New Category"><button>➕</button>
                 </div>
 
             </div>
 
-            <div id="extensions">
+            <div id="files">
                 <div class="center">
-                    <h2>Extensions</h2>
+                    <h2>Files</h2>
                 </div>
                 <ul>
-                    <li>.jpg<button>❌</button><input type="checkbox" class="parent-folder"></li>
-                    <li>.png<button>❌</button><input type="checkbox" class="parent-folder"></li>
-                    <li>.pdf<button>❌</button><input type="checkbox" class="parent-folder"></li>
-                    <li>.mp4<button>❌</button><input type="checkbox" class="parent-folder"></li>
-                    <li>.mp3<button>❌</button><input type="checkbox" class="parent-folder"></li>
-                    <li>.zip<button>❌</button><input type="checkbox" class="parent-folder"></li>
+                    <li><span>.jpg</span><button>📁</button><button>❌</button></li>
+                    <li><span>.png</span><button>📁</button><button>❌</button></li>
+                    <li><span>.pdf</span><button>📁</button><button>❌</button></li>
+                    <li><span>.mp4</span><button>📁</button><button>❌</button></li>
+                    <li><span>.mp3</span><button>📁</button><button>❌</button></li>
+                    <li><span>.zip</span><button>📁</button><button>❌</button></li>
                 </ul>
-                <div class="center">
-                    <button id="add-extension">➕ New Extension</button>
+                <div class="new center">
+                    <input type="text" class="new-file-folder" placeholder="New File/Folder"><button>➕</button>
                 </div>
             </div>
         </div>
@@ -49,20 +49,21 @@
             <div id="path">
                 <div id="source">
                     <label for="source">Source:</label>
-                    <input type="text" id="source" type="file" name="source" value="">
+                    <input type="text" id="source" type="file">
                     <button id="browse-source">Browse</button>
                 </div>
 
                 <div id="destination">
                     <label for="destination">Destination:</label>
-                    <input type="text" id="destination" type="file" name="destination" value="">
+                    <input type="text" id="destination" type="file">
                     <button id="browse-destination">Browse</button>
                 </div>
             </div>
 
             <div id="options">
-                <span>Move Files:</button><input type="checkbox" id="move-files"></span>
-                <span>Move folders:<input type="checkbox" id="move-folders"></span>
+                <span>Move Files</button><input type="checkbox" id="move-files"></span>
+                <span>Move folders<input type="checkbox" id="move-folders"></span>
+                <button>Exclude</button><input type="checkbox" id="exclude">
             </div>
 
             <div id="organize">
